@@ -1,0 +1,17 @@
+ # Day 3: Even if I wanted to go, their vulnerabilities wouldn't allow it
+----------------------------------------------------------------------------------
+# TOPIC COVERED
+
+ELK - ELK stands for Elasticsearch, Logstash, and Kibana. These are three open-source tools that are commonly used together to collect, store, analyse, and visualise data.
+KQL - Kibana Query Language (KQL) is a query language and data analysis tool used in Microsoft's cloud platforms, especially Azure
+
+-----------------------------------------------------------------------------------
+Answer the questions below
+1) BLUE: Where was the web shell uploaded to? (Answer format: /directory/directory/directory/filename.php)
+Ans - /media/images/rooms/shell.php
+
+2) BLUE: What IP address accessed the web shell?
+Ans - 10.11.83.34
+
+3) RED: What is the contents of the flag.txt?
+Ans - THM{Gl1tch_Was_H3r3}

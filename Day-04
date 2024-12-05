@@ -1,0 +1,28 @@
+ # Day 4: I’m all atomic inside!
+------------------------------------------------------------------------------------------------------
+# Learning Objectives
+-> Learn how to identify malicious techniques using the MITRE ATT&CK framework.
+-> Learn about how to use Atomic Red Team tests to conduct attack simulations.
+-> Understand how to create alerting and detection rules from the attack tests.
+
+------------------------------------------------------------------------------------------------------
+
+# Answer the questions below
+
+1) What was the flag found in the .txt file that is found in the same directory as the PhishingAttachment.xslm artefact?
+Ans - THM{GlitchTestingForSpearphishing}
+
+2) What ATT&CK technique ID would be our point of interest?
+Ans - T1059
+
+3) What ATT&CK subtechnique ID focuses on the Windows Command Shell?
+Ans - T1059.003
+
+4) What is the name of the Atomic Test to be simulated?
+Ans - Simulate BlackByte Ransomware Print Bombing
+
+5) What is the name of the file used in the test?
+Ans - Wareville_Ransomware.txt
+
+6) What is the flag found from this Atomic Test?
+Ans - THM{R2xpdGNoIGlzIG5vdCB0aGUgZW5lbXk=}

@@ -1,0 +1,42 @@
+# Day 7: Oh, no. I'M SPEAKING IN CLOUDTRAIL!
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# CloudWatch
+
+-> AWS CloudWatch is a monitoring and observability platform that gives us greater insight into our AWS environment by monitoring applications at multiple levels. CloudWatch provides functionalities such as the monitoring of system and application metrics and the configuration of alarms on those metrics for the purposes of today's investigation, though we want to focus specifically on CloudWatch logs. Running an application in a cloud environment can mean leveraging lots of different services (e.g. a service running the application, a service running functions triggered by that application, a service running the application backend, etc.); this translates to logs being generated from lots of different sources. CloudWatch logs make it easy for users to access, monitor and store the logs from all these various sources. A CloudWatch agent must be installed on the appropriate instance for application and system metrics to be captured.
+
+# CloudTrail
+
+-> CloudWatch can track infrastructure and application performance, but what if you wanted to monitor actions in your AWS environment? These would be tracked using another service called AWS CloudTrail. Actions can be those taken by a user, a role (granted to a user giving them certain permissions) or an AWS service and are recorded as events in AWS CloudTrail. Essentially, any action the user takes (via the management console or AWS CLI) or service will be captured and stored
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Answer the questions below
+1) What is the other activity made by the user glitch aside from the ListObject action?
+Ans - PutObject
+
+2) What is the source IP related to the S3 bucket activities of the user glitch?
+Ans - 53.94.201.69
+
+3) Based on the eventSource field, what AWS service generates the ConsoleLogin event?
+Ans - signin.amazonaws.com
+
+4) When did the anomalous user trigger the ConsoleLogin event?
+Ans - 2024-11-28T15:21:54Z
+
+5) What was the name of the user that was created by the mcskidy user?
+Ans - glitch
+
+6) What type of access was assigned to the anomalous user?
+Ans - AdministratorAccess
+
+7) Which IP does Mayor Malware typically use to log into AWS?
+Ans - 53.94.201.69
+
+8) What is McSkidy's actual IP address?
+Ans - 31.210.15.79
+
+9) What is the bank account number owned by Mayor Malware?
+Ans - 2394 6912 7723 1294
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# THM Rooms's -----------> Log Universe
+
+----x-----------------------x-----------------------------x--------------------------x--------------------------x---------------------------x--------------------x--------------------x---------

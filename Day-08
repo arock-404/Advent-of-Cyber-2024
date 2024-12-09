@@ -1,0 +1,13 @@
+# Day 8: Shellcodes of the world, unite!
+-------------------------------------------------------------------------------------------------
+# Learning Objectives
+-> Grasp the fundamentals of writing shellcode
+-> Generate shellcode for reverse shells
+-> Executing shellcode with PowerShell
+--------------------------------------------------------------------------------------------------
+# Answer the questions below
+1) What is the flag value once Glitch gets reverse shell on the digital vault using port 4444? Note: The flag may take around a minute to appear in the C:\Users\glitch\Desktop directory. You can view the content of the flag by using the command type C:\Users\glitch\Desktop\flag.txt.
+Ans - AOC{GOT _MY_ACCESS_B@CK007}
+-----------------------------------------------------------------------------------------------------
+THM Room's --> AV Evasion: Shellcode
+----------------------------x------------------------------------x-------------------------------------x------------------------------------x-----------------------------------x-----------------

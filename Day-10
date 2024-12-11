@@ -1,0 +1,16 @@
+#  Day 10: He had a brain full of macros, and had shells in his soul.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+# Learning Objectives
+-> Understand how phishing attacks work
+-> Discover how macros in documents can be used and abused
+-> Learn how to carry out a phishing attack with a macro
+
+# Macros
+In computing, a macro refers to a set of programmed instructions designed to automate repetitive tasks.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+# Answer the questions below
+1) What is the flag value inside the flag.txt file that’s located on the Administrator’s desktop?
+Ans - THM{PHISHING_CHRISTMAS}
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+# THM Room's --> Phishing
+-----------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,16 @@
+#  Day 13: It came without buffering! It came without lag!
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Learning Objectives
+- Learn about WebSockets and their vulnerabilities.
+- Learn how WebSocket Message Manipulation can be done.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Answer the questions below
+
+1) What is the value of Flag1?
+Ans - THM{dude_where_is_my_car}
+
+2) What is the value of Flag2?
+Ans - THM{my_name_is_malware._mayor_malware}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------

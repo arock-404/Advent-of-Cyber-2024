@@ -1,0 +1,23 @@
+# Day 17: He analyzed and analyzed till his analyzer was sore!
+--------------------------------------------------------------------------------------------------------------------------------------------------
+# Learning Objectives
+In this task, we will explore the following learning objectives while investigating the logs related to the incident scenario explained above:
+
+- Learn how to extract custom fields in Splunk
+- Learn to create a parser for the custom logs
+- Filter and narrow down the search results using Search Processing Language (SPL)
+- How to investigate in Splunk
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+# Answer the questions below
+1) Extract all the events from the cctv_feed logs. How many logs were captured associated with the successful login?
+Ans - 642
+
+2) What is the Session_id associated with the attacker who deleted the recording?
+Ans - rij5uu4gt204q0d3eb7jj86okt
+
+3) What is the name of the attacker found in the logs, who deleted the CCTV footage?
+Ans - mmalware
+
+-------------------------------------------------------------------------------------------------------------------------------------------------

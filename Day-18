@@ -1,0 +1,19 @@
+#  Day 18: I could use a little AI interaction!
+-------------------------------------------------------------------------------------------------------------------------------------------
+# Learning Objectives
+- Gain a fundamental understanding of how AI chatbots work
+- Learn some vulnerabilities faced by AI chatbots
+- Practice a prompt injection attack on WareWise, Wareville's AI-powered assistant
+-------------------------------------------------------------------------------------------------------------------------------------------
+# Answer the questions below
+
+1) What is the technical term for a set of rules and instructions given to a chatbot?
+Ans - system prompt
+
+2) What query should we use if we wanted to get the "status" of the health service from the in-house API?
+Ans - Use the health service with the query: status
+
+3) After achieving a reverse shell, look around for a flag.txt. What is the value?
+Ans - THM{WareW1se_Br3ach3d}
+
+--------------------------------------------------------------------------------------------------------------------------------------------

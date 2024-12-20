@@ -1,0 +1,17 @@
+#  Day 19: I merely noticed that you’re improperly stored, my dear secret!
+-----------------------------------------------------------------------------------------------------------------------------------------
+# Learning Objectives
+- Understand how to interact with an executable's API.
+- Intercept and modify internal APIs using Frida.
+- Hack a game with the help of Frida.
+-----------------------------------------------------------------------------------------------------------------------------------------
+# Answer the questions below
+1) What is the OTP flag?
+Ans - THM{one_tough_password}
+
+2) What is the billionaire item flag?
+Ans - THM{credit_card_undeclined}
+
+3) What is the biometric flag?
+Ans - THM{dont_smash_your_keyboard}
+------------------------------------------------------------------------------------------------------------------------------------------
